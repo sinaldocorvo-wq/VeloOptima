@@ -1,0 +1,6 @@
+{
+  "name": "VeloOptima",
+  "description": "Algoritmo de otimização matemática, simulação Monte Carlo e análise de plantel para jogos de Fantasy de ciclismo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,805 @@
+{
+  "schemaVersion": "1.0.0",
+  "appName": "VeloOptima",
+  "exportedAt": "2026-11-21T18:01:30.267Z",
+  "riders": [
+    {
+      "id": "pogacar",
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates",
+      "nationality": "SLO",
+      "role": "GC",
+      "cost": 28,
+      "form": 98,
+      "ownership": 68,
+      "volatility": 0.12,
+      "ratings": {
+        "gc": 99,
+        "mountain": 99,
+        "sprint": 62,
+        "hilly": 98,
+        "tt": 92,
+        "cobbles": 88
+      }
+    },
+    {
+      "id": "vingegaard",
+      "name": "Jonas Vingegaard",
+      "team": "Visma | Lease a Bike",
+      "nationality": "DEN",
+      "role": "GC",
+      "cost": 26,
+      "form": 92,
+      "ownership": 54,
+      "volatility": 0.15,
+      "ratings": {
+        "gc": 97,
+        "mountain": 98,
+        "sprint": 38,
+        "hilly": 84,
+        "tt": 94,
+        "cobbles": 45
+      }
+    },
+    {
+      "id": "evenepoel",
+      "name": "Remco Evenepoel",
+      "team": "Soudal Quick-Step",
+      "nationality": "BEL",
+      "role": "GC",
+      "cost": 22,
+      "form": 93,
+      "ownership": 46,
+      "volatility": 0.17,
+      "ratings": {
+        "gc": 92,
+        "mountain": 89,
+        "sprint": 52,
+        "hilly": 93,
+        "tt": 99,
+        "cobbles": 64
+      }
+    },
+    {
+      "id": "roglic",
+      "name": "Primož Roglič",
+      "team": "Red Bull - BORA",
+      "nationality": "SLO",
+      "role": "GC",
+      "cost": 20,
+      "form": 89,
+      "ownership": 38,
+      "volatility": 0.24,
+      "ratings": {
+        "gc": 92,
+        "mountain": 91,
+        "sprint": 64,
+        "hilly": 91,
+        "tt": 91,
+        "cobbles": 50
+      }
+    },
+    {
+      "id": "almeida",
+      "name": "João Almeida",
+      "team": "UAE Team Emirates",
+      "nationality": "POR",
+      "role": "GC",
+      "cost": 16,
+      "form": 91,
+      "ownership": 29,
+      "volatility": 0.14,
+      "ratings": {
+        "gc": 89,
+        "mountain": 88,
+        "sprint": 46,
+        "hilly": 79,
+        "tt": 86,
+        "cobbles": 42
+      }
+    },
+    {
+      "id": "ayuso",
+      "name": "Juan Ayuso",
+      "team": "UAE Team Emirates",
+      "nationality": "ESP",
+      "role": "GC",
+      "cost": 14,
+      "form": 88,
+      "ownership": 22,
+      "volatility": 0.21,
+      "ratings": {
+        "gc": 86,
+        "mountain": 87,
+        "sprint": 54,
+        "hilly": 85,
+        "tt": 85,
+        "cobbles": 40
+      }
+    },
+    {
+      "id": "rodriguez_c",
+      "name": "Carlos Rodríguez",
+      "team": "INEOS Grenadiers",
+      "nationality": "ESP",
+      "role": "GC",
+      "cost": 14,
+      "form": 87,
+      "ownership": 19,
+      "volatility": 0.15,
+      "ratings": {
+        "gc": 86,
+        "mountain": 86,
+        "sprint": 42,
+        "hilly": 78,
+        "tt": 77,
+        "cobbles": 38
+      }
+    },
+    {
+      "id": "skjelmose",
+      "name": "Mattias Skjelmose",
+      "team": "Lidl-Trek",
+      "nationality": "DEN",
+      "role": "GC",
+      "cost": 12,
+      "form": 89,
+      "ownership": 16,
+      "volatility": 0.19,
+      "ratings": {
+        "gc": 83,
+        "mountain": 83,
+        "sprint": 58,
+        "hilly": 90,
+        "tt": 82,
+        "cobbles": 55
+      }
+    },
+    {
+      "id": "jorgenson",
+      "name": "Matteo Jorgenson",
+      "team": "Visma | Lease a Bike",
+      "nationality": "USA",
+      "role": "GC",
+      "cost": 12,
+      "form": 90,
+      "ownership": 21,
+      "volatility": 0.16,
+      "ratings": {
+        "gc": 84,
+        "mountain": 82,
+        "sprint": 55,
+        "hilly": 87,
+        "tt": 85,
+        "cobbles": 83
+      }
+    },
+    {
+      "id": "mas",
+      "name": "Enric Mas",
+      "team": "Movistar Team",
+      "nationality": "ESP",
+      "role": "GC",
+      "cost": 12,
+      "form": 85,
+      "ownership": 14,
+      "volatility": 0.16,
+      "ratings": {
+        "gc": 85,
+        "mountain": 87,
+        "sprint": 35,
+        "hilly": 75,
+        "tt": 68,
+        "cobbles": 30
+      }
+    },
+    {
+      "id": "yates_a",
+      "name": "Adam Yates",
+      "team": "UAE Team Emirates",
+      "nationality": "GBR",
+      "role": "Climber",
+      "cost": 14,
+      "form": 88,
+      "ownership": 24,
+      "volatility": 0.18,
+      "ratings": {
+        "gc": 85,
+        "mountain": 90,
+        "sprint": 48,
+        "hilly": 86,
+        "tt": 72,
+        "cobbles": 36
+      }
+    },
+    {
+      "id": "yates_s",
+      "name": "Simon Yates",
+      "team": "Visma | Lease a Bike",
+      "nationality": "GBR",
+      "role": "Climber",
+      "cost": 12,
+      "form": 86,
+      "ownership": 17,
+      "volatility": 0.22,
+      "ratings": {
+        "gc": 83,
+        "mountain": 88,
+        "sprint": 50,
+        "hilly": 85,
+        "tt": 74,
+        "cobbles": 38
+      }
+    },
+    {
+      "id": "kuss",
+      "name": "Sepp Kuss",
+      "team": "Visma | Lease a Bike",
+      "nationality": "USA",
+      "role": "Climber",
+      "cost": 10,
+      "form": 84,
+      "ownership": 15,
+      "volatility": 0.2,
+      "ratings": {
+        "gc": 79,
+        "mountain": 88,
+        "sprint": 32,
+        "hilly": 76,
+        "tt": 62,
+        "cobbles": 32
+      }
+    },
+    {
+      "id": "ciccone",
+      "name": "Giulio Ciccone",
+      "team": "Lidl-Trek",
+      "nationality": "ITA",
+      "role": "Climber",
+      "cost": 10,
+      "form": 87,
+      "ownership": 18,
+      "volatility": 0.25,
+      "ratings": {
+        "gc": 78,
+        "mountain": 87,
+        "sprint": 46,
+        "hilly": 86,
+        "tt": 60,
+        "cobbles": 35
+      }
+    },
+    {
+      "id": "gall",
+      "name": "Felix Gall",
+      "team": "Decathlon AG2R",
+      "nationality": "AUT",
+      "role": "Climber",
+      "cost": 8,
+      "form": 85,
+      "ownership": 11,
+      "volatility": 0.23,
+      "ratings": {
+        "gc": 80,
+        "mountain": 86,
+        "sprint": 30,
+        "hilly": 73,
+        "tt": 58,
+        "cobbles": 25
+      }
+    },
+    {
+      "id": "tiberi",
+      "name": "Antonio Tiberi",
+      "team": "Bahrain Victorious",
+      "nationality": "ITA",
+      "role": "Climber",
+      "cost": 8,
+      "form": 88,
+      "ownership": 13,
+      "volatility": 0.18,
+      "ratings": {
+        "gc": 82,
+        "mountain": 84,
+        "sprint": 42,
+        "hilly": 79,
+        "tt": 81,
+        "cobbles": 34
+      }
+    },
+    {
+      "id": "lipowitz",
+      "name": "Florian Lipowitz",
+      "team": "Red Bull - BORA",
+      "nationality": "GER",
+      "role": "Climber",
+      "cost": 6,
+      "form": 89,
+      "ownership": 9,
+      "volatility": 0.22,
+      "ratings": {
+        "gc": 78,
+        "mountain": 83,
+        "sprint": 38,
+        "hilly": 76,
+        "tt": 75,
+        "cobbles": 30
+      }
+    },
+    {
+      "id": "del_toro",
+      "name": "Isaac Del Toro",
+      "team": "UAE Team Emirates",
+      "nationality": "MEX",
+      "role": "Climber",
+      "cost": 6,
+      "form": 87,
+      "ownership": 12,
+      "volatility": 0.26,
+      "ratings": {
+        "gc": 77,
+        "mountain": 83,
+        "sprint": 56,
+        "hilly": 84,
+        "tt": 74,
+        "cobbles": 42
+      }
+    },
+    {
+      "id": "van_eetvelt",
+      "name": "Lennert Van Eetvelt",
+      "team": "Lotto",
+      "nationality": "BEL",
+      "role": "Climber",
+      "cost": 6,
+      "form": 88,
+      "ownership": 10,
+      "volatility": 0.24,
+      "ratings": {
+        "gc": 76,
+        "mountain": 82,
+        "sprint": 54,
+        "hilly": 87,
+        "tt": 66,
+        "cobbles": 48
+      }
+    },
+    {
+      "id": "riccitello",
+      "name": "Matthew Riccitello",
+      "team": "Israel - Premier Tech",
+      "nationality": "USA",
+      "role": "Climber",
+      "cost": 4,
+      "form": 84,
+      "ownership": 4,
+      "volatility": 0.24,
+      "ratings": {
+        "gc": 72,
+        "mountain": 80,
+        "sprint": 30,
+        "hilly": 72,
+        "tt": 60,
+        "cobbles": 25
+      }
+    },
+    {
+      "id": "philipsen",
+      "name": "Jasper Philipsen",
+      "team": "Alpecin-Deceuninck",
+      "nationality": "BEL",
+      "role": "Sprinter",
+      "cost": 18,
+      "form": 93,
+      "ownership": 49,
+      "volatility": 0.16,
+      "ratings": {
+        "gc": 20,
+        "mountain": 25,
+        "sprint": 98,
+        "hilly": 66,
+        "tt": 45,
+        "cobbles": 82
+      }
+    },
+    {
+      "id": "merlier",
+      "name": "Tim Merlier",
+      "team": "Soudal Quick-Step",
+      "nationality": "BEL",
+      "role": "Sprinter",
+      "cost": 16,
+      "form": 94,
+      "ownership": 36,
+      "volatility": 0.2,
+      "ratings": {
+        "gc": 15,
+        "mountain": 18,
+        "sprint": 97,
+        "hilly": 50,
+        "tt": 42,
+        "cobbles": 68
+      }
+    },
+    {
+      "id": "milan",
+      "name": "Jonathan Milan",
+      "team": "Lidl-Trek",
+      "nationality": "ITA",
+      "role": "Sprinter",
+      "cost": 16,
+      "form": 94,
+      "ownership": 41,
+      "volatility": 0.18,
+      "ratings": {
+        "gc": 18,
+        "mountain": 22,
+        "sprint": 96,
+        "hilly": 56,
+        "tt": 68,
+        "cobbles": 70
+      }
+    },
+    {
+      "id": "kooij",
+      "name": "Olav Kooij",
+      "team": "Visma | Lease a Bike",
+      "nationality": "NED",
+      "role": "Sprinter",
+      "cost": 12,
+      "form": 89,
+      "ownership": 25,
+      "volatility": 0.21,
+      "ratings": {
+        "gc": 18,
+        "mountain": 22,
+        "sprint": 92,
+        "hilly": 58,
+        "tt": 48,
+        "cobbles": 65
+      }
+    },
+    {
+      "id": "girmay",
+      "name": "Biniam Girmay",
+      "team": "Intermarché-Wanty",
+      "nationality": "ERI",
+      "role": "Sprinter",
+      "cost": 12,
+      "form": 90,
+      "ownership": 28,
+      "volatility": 0.22,
+      "ratings": {
+        "gc": 28,
+        "mountain": 38,
+        "sprint": 89,
+        "hilly": 80,
+        "tt": 52,
+        "cobbles": 78
+      }
+    },
+    {
+      "id": "de_lie",
+      "name": "Arnaud De Lie",
+      "team": "Lotto",
+      "nationality": "BEL",
+      "role": "Sprinter",
+      "cost": 10,
+      "form": 87,
+      "ownership": 17,
+      "volatility": 0.25,
+      "ratings": {
+        "gc": 25,
+        "mountain": 32,
+        "sprint": 88,
+        "hilly": 79,
+        "tt": 50,
+        "cobbles": 81
+      }
+    },
+    {
+      "id": "groenewegen",
+      "name": "Dylan Groenewegen",
+      "team": "Team Jayco AlUla",
+      "nationality": "NED",
+      "role": "Sprinter",
+      "cost": 8,
+      "form": 83,
+      "ownership": 11,
+      "volatility": 0.26,
+      "ratings": {
+        "gc": 12,
+        "mountain": 15,
+        "sprint": 89,
+        "hilly": 40,
+        "tt": 40,
+        "cobbles": 48
+      }
+    },
+    {
+      "id": "magnier",
+      "name": "Paul Magnier",
+      "team": "Soudal Quick-Step",
+      "nationality": "FRA",
+      "role": "Sprinter",
+      "cost": 6,
+      "form": 90,
+      "ownership": 14,
+      "volatility": 0.27,
+      "ratings": {
+        "gc": 22,
+        "mountain": 28,
+        "sprint": 86,
+        "hilly": 76,
+        "tt": 48,
+        "cobbles": 72
+      }
+    },
+    {
+      "id": "bittner",
+      "name": "Pavel Bittner",
+      "team": "Picnic PostNL",
+      "nationality": "CZE",
+      "role": "Sprinter",
+      "cost": 4,
+      "form": 85,
+      "ownership": 6,
+      "volatility": 0.28,
+      "ratings": {
+        "gc": 18,
+        "mountain": 24,
+        "sprint": 83,
+        "hilly": 64,
+        "tt": 46,
+        "cobbles": 60
+      }
+    },
+    {
+      "id": "van_der_poel",
+      "name": "Mathieu van der Poel",
+      "team": "Alpecin-Deceuninck",
+      "nationality": "NED",
+      "role": "Classics",
+      "cost": 18,
+      "form": 96,
+      "ownership": 44,
+      "volatility": 0.19,
+      "ratings": {
+        "gc": 42,
+        "mountain": 58,
+        "sprint": 87,
+        "hilly": 95,
+        "tt": 72,
+        "cobbles": 99
+      }
+    },
+    {
+      "id": "van_aert",
+      "name": "Wout van Aert",
+      "team": "Visma | Lease a Bike",
+      "nationality": "BEL",
+      "role": "Classics",
+      "cost": 16,
+      "form": 89,
+      "ownership": 35,
+      "volatility": 0.21,
+      "ratings": {
+        "gc": 52,
+        "mountain": 65,
+        "sprint": 90,
+        "hilly": 91,
+        "tt": 89,
+        "cobbles": 95
+      }
+    },
+    {
+      "id": "pedersen",
+      "name": "Mads Pedersen",
+      "team": "Lidl-Trek",
+      "nationality": "DEN",
+      "role": "Classics",
+      "cost": 16,
+      "form": 92,
+      "ownership": 33,
+      "volatility": 0.17,
+      "ratings": {
+        "gc": 34,
+        "mountain": 45,
+        "sprint": 90,
+        "hilly": 88,
+        "tt": 78,
+        "cobbles": 94
+      }
+    },
+    {
+      "id": "pidcock",
+      "name": "Tom Pidcock",
+      "team": "Q36.5 Pro Cycling",
+      "nationality": "GBR",
+      "role": "Classics",
+      "cost": 12,
+      "form": 88,
+      "ownership": 20,
+      "volatility": 0.25,
+      "ratings": {
+        "gc": 72,
+        "mountain": 77,
+        "sprint": 66,
+        "hilly": 91,
+        "tt": 65,
+        "cobbles": 85
+      }
+    },
+    {
+      "id": "healy",
+      "name": "Ben Healy",
+      "team": "EF Education-EasyPost",
+      "nationality": "IRL",
+      "role": "Classics",
+      "cost": 8,
+      "form": 87,
+      "ownership": 15,
+      "volatility": 0.29,
+      "ratings": {
+        "gc": 56,
+        "mountain": 74,
+        "sprint": 48,
+        "hilly": 88,
+        "tt": 74,
+        "cobbles": 72
+      }
+    },
+    {
+      "id": "gregoire",
+      "name": "Romain Grégoire",
+      "team": "Groupama-FDJ",
+      "nationality": "FRA",
+      "role": "Classics",
+      "cost": 6,
+      "form": 87,
+      "ownership": 9,
+      "volatility": 0.24,
+      "ratings": {
+        "gc": 60,
+        "mountain": 72,
+        "sprint": 64,
+        "hilly": 86,
+        "tt": 66,
+        "cobbles": 68
+      }
+    },
+    {
+      "id": "stuyven",
+      "name": "Jasper Stuyven",
+      "team": "Lidl-Trek",
+      "nationality": "BEL",
+      "role": "Classics",
+      "cost": 6,
+      "form": 84,
+      "ownership": 7,
+      "volatility": 0.21,
+      "ratings": {
+        "gc": 28,
+        "mountain": 36,
+        "sprint": 76,
+        "hilly": 78,
+        "tt": 65,
+        "cobbles": 87
+      }
+    },
+    {
+      "id": "zingle",
+      "name": "Axel Zingle",
+      "team": "Visma | Lease a Bike",
+      "nationality": "FRA",
+      "role": "Classics",
+      "cost": 4,
+      "form": 84,
+      "ownership": 5,
+      "volatility": 0.26,
+      "ratings": {
+        "gc": 24,
+        "mountain": 34,
+        "sprint": 79,
+        "hilly": 80,
+        "tt": 52,
+        "cobbles": 74
+      }
+    },
+    {
+      "id": "ganna",
+      "name": "Filippo Ganna",
+      "team": "INEOS Grenadiers",
+      "nationality": "ITA",
+      "role": "TT",
+      "cost": 10,
+      "form": 91,
+      "ownership": 21,
+      "volatility": 0.16,
+      "ratings": {
+        "gc": 42,
+        "mountain": 48,
+        "sprint": 64,
+        "hilly": 72,
+        "tt": 98,
+        "cobbles": 84
+      }
+    },
+    {
+      "id": "tarling",
+      "name": "Joshua Tarling",
+      "team": "INEOS Grenadiers",
+      "nationality": "GBR",
+      "role": "TT",
+      "cost": 8,
+      "form": 89,
+      "ownership": 14,
+      "volatility": 0.19,
+      "ratings": {
+        "gc": 38,
+        "mountain": 42,
+        "sprint": 50,
+        "hilly": 65,
+        "tt": 95,
+        "cobbles": 76
+      }
+    },
+    {
+      "id": "kung",
+      "name": "Stefan Küng",
+      "team": "Groupama-FDJ",
+      "nationality": "SUI",
+      "role": "TT",
+      "cost": 6,
+      "form": 85,
+      "ownership": 8,
+      "volatility": 0.18,
+      "ratings": {
+        "gc": 36,
+        "mountain": 44,
+        "sprint": 54,
+        "hilly": 70,
+        "tt": 91,
+        "cobbles": 86
+      }
+    },
+    {
+      "id": "mcnulty",
+      "name": "Brandon McNulty",
+      "team": "UAE Team Emirates",
+      "nationality": "USA",
+      "role": "TT",
+      "cost": 8,
+      "form": 87,
+      "ownership": 10,
+      "volatility": 0.22,
+      "ratings": {
+        "gc": 76,
+        "mountain": 79,
+        "sprint": 42,
+        "hilly": 78,
+        "tt": 89,
+        "cobbles": 45
+      }
+    },
+    {
+      "id": "romeo",
+      "name": "Iván Romeo",
+      "team": "Movistar Team",
+      "nationality": "ESP",
+      "role": "TT",
+      "cost": 4,
+      "form": 86,
+      "ownership": 4,
+      "volatility": 0.23,
+      "ratings": {
+        "gc": 64,
+        "mountain": 68,
+        "sprint": 44,
+        "hilly": 74,
+        "tt": 86,
+        "cobbles": 56
+      }
+    }
+  ]
+}
